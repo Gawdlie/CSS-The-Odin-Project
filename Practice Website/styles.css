@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.full-heading {
+  background-color: gray;
+  padding: 10px 50px 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: goldenrod;
+}
+
+.welcome {
+  margin-left: 100px;
+  color: goldenrod;
+}
+
+.about,
+.projects,
+.contact {
+  cursor: pointer;
+}
+
+.cover-image {
+  height: 500px;
+  width: 340px;
+  border-radius: 50%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  color: goldenrod;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 140px;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.center-cover {
+  background-color: maroon;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 53px;
+}
+
+.about-section {
+  background-color: orangered;
+}
+
+.list {
+  list-style-type: none;
+}
